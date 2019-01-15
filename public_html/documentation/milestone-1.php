@@ -1,7 +1,9 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Admin
- * Date: 1/15/2019
- * Time: 4:22 PM
- */
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Nehomahs PWP</title>
+	</head>
+	<body>
+
+	</body>
