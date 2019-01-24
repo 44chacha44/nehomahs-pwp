@@ -36,8 +36,9 @@
 			<li><strong>Behaviors: After work he likes to cook dinner then find a local pow wow and "drum hop" with the groups that will let him sing with them.
 					 On the weekends, if there are no pow wows, he can be found working on his truck. He likes to be active, keeping his hands and mind busy. </strong></li>
 			<li><strong>Attitudes: Excited to be in a new city. Eager to meet new pow wow people. </strong></li>
-			<li><strong>Frustrations: He has not received any invitations to practice with any of the drums he has sung with.
-					He would like to have a way to find out about the drum groups he's been singing with. Not all of them are online.</strong></li>
+			<li><strong>Frustrations: He has not received any invitations to practice with any of the drums he has sung with. Not all drum groups are online.</strong></li>
+			<li><strong>Goals: He wants to join a drum group that he can practice and sing with at pow wows. He wants information about each group to decide if they are a group he would get along with.</strong></li>
+			<li><strong>User Story: Dwayne wants to determine if this drum group would be one he would get along with based on similar interests and goals of the members.</strong></li>
 		</ul>
 		<p><strong></strong></p>
 
