@@ -19,5 +19,27 @@
 			<li><strong>To showcase the groups outreach.</strong></li>
 			</ul>
 
+		<div>
+			<img src="dyazzie.JPG" alt="dwayne">
+		</div>
+
+		<h1>Persona</h1>
+		<ul>
+			<li><strong>Name: Dwayne Yazzie</strong></li>
+			<li><strong>Age: 31</strong></li>
+			<li><strong>Ethnicity: Navajo</strong></li>
+			<li><strong>Job: Construction</strong></li>
+			<li><strong>Location: Albuquerque, NM</strong></li>
+			<li><strong>Technology: Samsung S9, Samsung Tab A, Skull Candy wireless headphones. He is confident in using his devices and fixing any problems he encounters.</strong></li>
+			<li><strong>Hobbies: Listening to and singing pow wow music, softball league, reading the Navajo Times</strong></li>
+			<li><strong>Favorite Websites: www.nativeradio.com, www.reddit.com, www.navajotimes.com</strong></li>
+			<li><strong>Behaviors: After work he likes to cook dinner then find a local pow wow and "drum hop" with the groups that will let him sing with them.
+					 On the weekends, if there are no pow wows, he can be found working on his truck. He likes to be active, keeping his hands and mind busy. </strong></li>
+			<li><strong>Attitudes: Excited to be in a new city. Eager to meet new pow wow people. </strong></li>
+			<li><strong>Frustrations: He has not received any invitations to practice with any of the drums he has sung with.
+					He would like to have a way to find out about the drum groups he's been singing with. Not all of them are online.</strong></li>
+		</ul>
+		<p><strong></strong></p>
+
 
 	</body>
