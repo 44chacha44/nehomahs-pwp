@@ -26,7 +26,7 @@
 		<h2>Mobile Wireframe</h2>
 
 		<div>
-			<img src="mobile-wireframe.png" alt="mobilewire">
+			<img src="mobile-wireframe2.png" alt="mobilewire">
 		</div>
 
 
