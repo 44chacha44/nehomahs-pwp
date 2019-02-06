@@ -16,4 +16,18 @@
 		<p><strong>Biographies:</strong> This section will have each core group members (4-6) biography and corresponding picture.</p>
 		<p><strong>Helpful Links:</strong> This section will link to their social media and music sharing pages.</p>
 		<p><strong>Contact:</strong> This will be a form to be filled out by user to be contacted by the group via email.</p>
+
+		<h2>Desktop Wireframe</h2>
+
+		<div>
+			<img src="desktop-wireframe.png" alt="deskwire">
+		</div>
+
+		<h2>Mobile Wireframe</h2>
+
+		<div>
+			<img src="mobile-wireframe.png" alt="mobilewire">
+		</div>
+
+
 	</body>

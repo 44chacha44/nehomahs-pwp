@@ -41,6 +41,10 @@
 			<li><strong>User Story: Dwayne wants to determine if this drum group would be one he would get along with based on similar interests and goals of the members.</strong></li>
 		</ul>
 
+		<div>
+			<img src="linda.jpg" alt="linda">
+		</div>
+
 		<h1>Persona 2</h1>
 		<ul>
 			<li><strong>Name: Linda Chavez</strong></li>
