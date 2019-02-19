@@ -29,25 +29,25 @@
 		<div id="background">
 			<div>
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					<a class="navbar-brand" href="#">Sunka Ska</a>
+					<a class="navbar-text" href="#">SUNKA SKA</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarText">
 						<ul class="navbar-nav mr-auto">
-							<li class="nav-item active">
-								<a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+							<li class="nav-item">
+								<a class="nav-link" href="#">ABOUT</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Members</a>
+								<a class="nav-link" href="#">MEMBERS</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="nav-link" href="#">CONNECT</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">CONTACT</a>
 							</li>
 						</ul>
-						<span class="navbar-text">
-      A'HO MITAKUYE OYASIN
-    </span>
 					</div>
 				</nav>
 
@@ -152,7 +152,7 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container m-4 p-2">
 			<div class="embed-responsive embed-responsive-16by9">
 				<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=ErkH4K39UrI" allowfullscreen></iframe>
 			</div>
@@ -160,17 +160,20 @@
 
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-3 text-center">CONNECT WITH US</h1>
-				<div class="row">
-					<div class="media col-4">
-						<img src="zia.png" class="mr-3" alt="...">
-					</div>
-					<div class="media col-4">
-						<img src="zia.png" class="mr-3" alt="...">
-					</div>
-					<div class="media col-4">
-						<img src="zia.png" class="mr-3" alt="...">
-					</div>
+				<h1 class="display-4 text-center">CONNECT WITH US</h1>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="media col-4">
+					<img src="zia.png" class="mr-3" alt="...">
+				</div>
+				<div class="media col-4">
+					<img src="zia.png" class="mr-3" alt="...">
+				</div>
+				<div class="media col-4">
+					<img src="zia.png" class="mr-3" alt="...">
 				</div>
 			</div>
 		</div>
