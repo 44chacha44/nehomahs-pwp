@@ -104,10 +104,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="container">
-				<div class="row flex-column-reverse flex-md-row">
-					<div class="col-sm-9">
-						<div class="mx-auto m-2 p-5">
+		</div>
+
+		<div class="container">
+			<div class="row flex-column-reverse flex-md-row">
+				<div class="col-sm-9">
+					<div class="mx-auto m-2 p-5">
 							<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
 						</div>
 					</div>
@@ -129,26 +131,28 @@
 					</div>
 				</div>
 			</div>
-			<div class="container">
-				<div class="row flex-column-reverse flex-md-row">
-					<div class="col-sm-9">
-						<div class="mx-auto m-2 p-5">
-							<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
-						</div>
+		</div>
+
+		<div class="container">
+			<div class="row flex-column-reverse flex-md-row">
+				<div class="col-sm-9">
+					<div class="mx-auto m-2 p-5">
+						<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
 					</div>
-					<div class="col-sm-3">
-						<img src="simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
-					</div>
+				</div>
+				<div class="col-sm-3">
+					<img src="simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
 				</div>
 			</div>
 		</div>
-		<div>
-			<div class="container">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=ErkH4K39UrI" allowfullscreen></iframe>
-				</div>
+
+		<div class="container">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=ErkH4K39UrI" allowfullscreen></iframe>
 			</div>
 		</div>
+
+		
 
 	</body>
 </html>
