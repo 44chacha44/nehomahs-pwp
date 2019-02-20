@@ -34,18 +34,18 @@
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarText">
-						<ul class="navbar-nav mr-auto">
+						<ul class="navbar-nav mx-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="#">ABOUT</a>
+								<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~nmora9/nehomahs-pwp/public_html/index.php#about">ABOUT</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">MEMBERS</a>
+								<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~nmora9/nehomahs-pwp/public_html/index.php#members">MEMBERS</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">CONNECT</a>
+								<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~nmora9/nehomahs-pwp/public_html/index.php#connect">CONNECT</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">CONTACT</a>
+								<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~nmora9/nehomahs-pwp/public_html/index.php#contact">CONTACT</a>
 							</li>
 						</ul>
 					</div>
@@ -62,15 +62,15 @@
 		</div>
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h2 class="display-4 text-center">
-				<img src="simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image"></h2>
+				<h2 class="display-4 text-center"><a id="about">
+						<img src="simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image"></a></h2>
 				<p class="lead text-center">A'ho! Our group was formed.....and then............and then.......................and then.................. something......................blah. ........................la..................................... de.................................................... da................................... blah............................................. de................................ lah........................................................... do....................................... re................................................. mi........................................ fa........................................................ so................................... ti.............................................................. do.</p>
 			</div>
 		</div>
 
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-3 text-center">MEMBERS</h1>
+				<h1 class="display-4 text-center"><a id="members">MEMBERS</a></h1>
 			</div>
 		</div>
 		
@@ -160,27 +160,27 @@
 
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-4 text-center">CONNECT WITH US</h1>
+				<h1 class="display-4 text-center"><a id="connect">CONNECT WITH US</a></h1>
 			</div>
 		</div>
 
 		<div class="container">
 			<div class="row">
 				<div class="media col-4">
-					<img src="zia.png" class="mr-3" alt="...">
+					<img src="zia.png" class="img-fluid mr-3" alt="...">
 				</div>
 				<div class="media col-4">
-					<img src="zia.png" class="mr-3" alt="...">
+					<img src="zia.png" class="img-fluid mr-3" alt="...">
 				</div>
 				<div class="media col-4">
-					<img src="zia.png" class="mr-3" alt="...">
+					<img src="zia.png" class="img-fluid mr-3" alt="...">
 				</div>
 			</div>
 		</div>
 
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-4 text-center">CONTACT US</h1>
+				<h1 class="display-4 text-center"><a id="contact">CONTACT US</a></h1>
 				<p class="lead text-center">This will be the correct form when I get the code</p>
 			</div>
 		</div>
@@ -190,14 +190,14 @@
 				<div class="form-row">
 					<div class="col-md-4 mb-3">
 						<label for="validationCustom01">First name</label>
-						<input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+						<input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Shunka" required>
 						<div class="valid-feedback">
 							Looks good!
 						</div>
 					</div>
 					<div class="col-md-4 mb-3">
 						<label for="validationCustom02">Last name</label>
-						<input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+						<input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Ska" required>
 						<div class="valid-feedback">
 							Looks good!
 						</div>
@@ -276,6 +276,8 @@
 
 	</body>
 	<footer>
-		<button type="button" class="btn mx-auto btn-outline-success btn-small font-weight-light">CREATED BY NEHOMAH</button>
+		<div class="mx-auto" style="width: 200px;">
+			<button type="button" class="btn mb-3 btn-outline-success btn-small font-weight-light">CREATED BY NEHOMAH</button>
+		</div>
 	</footer>
 </html>
