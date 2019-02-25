@@ -152,9 +152,10 @@
 			</div>
 		</div>
 
+		
 		<div class="container m-4 p-2">
 			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=ErkH4K39UrI" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/ErkH4K39UrI?start=4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 
