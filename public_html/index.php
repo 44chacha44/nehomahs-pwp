@@ -20,6 +20,9 @@
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<!-- Youtube script -->
+		<script src="https://apis.google.com/js/platform.js"></script>
+
 
 		<title>Sunka Ska | Drum Group</title>
 	</head>
@@ -63,7 +66,7 @@
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
 				<h2 class="display-4 text-center"><a id="about">
-						<img src="simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image"></a></h2>
+						<img src="sssgroup.jpg" class="img-fluid" alt="Responsive image"></a></h2>
 				<p class="lead text-center">A'ho! Our group was formed.....and then............and then.......................and then.................. something......................blah. ........................la..................................... de.................................................... da................................... blah............................................. de................................ lah........................................................... do....................................... re................................................. mi........................................ fa........................................................ so................................... ti.............................................................. do.</p>
 			</div>
 		</div>
@@ -153,9 +156,9 @@
 		</div>
 
 		
-		<div class="container m-4 p-2">
+		<div class="container">
 			<div class="embed-responsive embed-responsive-16by9">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/ErkH4K39UrI?start=4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RFDGnZfvWrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 
@@ -167,14 +170,11 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="media col-4">
-					<img src="zia.png" class="img-fluid mr-3" alt="...">
+				<div class="media col-8">
+					<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/578195133&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 				</div>
 				<div class="media col-4">
-					<img src="zia.png" class="img-fluid mr-3" alt="...">
-				</div>
-				<div class="media col-4">
-					<img src="zia.png" class="img-fluid mr-3" alt="...">
+					<div class="g-ytsubscribe" data-channelid="UCvJ6KUITMsejlbhNF4Hextw" data-layout="default" data-theme="dark" data-count="default"></div>
 				</div>
 			</div>
 		</div>
