@@ -1,4 +1,4 @@
-$(document).ready(function()) {
+$(document).ready(function() {
 
 	/**
 	 * jQuery Validate Function
@@ -17,37 +17,45 @@ $(document).ready(function()) {
 	$("#my-contact-form"). validate(
 		{
 			debug: true,
-			errorClss: "alert alert-danger",
+			errorClass: "alert alert-danger",
 			errorLabelContainer: "#output-area",
 			errorElement: "div",
 
 			// rules here define what is good or bad input
 			// each rule starts with the form input elements NAME attribute
 			rules: {
-				name: {
+				firstName: {
 					require: true
 				},
-				email: {
+				lastName: {
+					require: true
+				},
+				emailAddress: {
 					email: true,
 					required: true
 				},
 				message: {
 					required: true,
-					maxLength: 2000
+					maxLength: 2000,
+					minLength: 10
 				}
 			},
 			// error messages to display to the end user when rules above don't pass
 			messages: {
-				name: {
-					required: "who dis is"
+						firstName: {
+								required: "who dis is?"
 				},
-				email: {
-					email: "gimme your email addy",
-					required: "gimme your email addy"
+						lastName: {
+								required: "who dis is?"
 				},
-				message: {
-					required: "tell me your thoughts",
-					maxLength: "2000 characters max"
+						emailAddress: {
+								email: "real email addy required",
+								required: "gimme your email addy"
+				},
+						message: {
+								required: "tell us your thoughts",
+								maxLength: "2000 characters max",
+								minLength: "10 characters min"
 				}
 			},
 
@@ -72,4 +80,4 @@ $(document).ready(function()) {
 				})
 			}
 		}); /* end validate function here*/
-}
+})
