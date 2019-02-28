@@ -226,14 +226,24 @@
 					</div>
 				</div>
 
-				<button class="btn btn-primary" type="submit">Submit form</button>
+				<div class="g-recaptcha" data-sitekey="6Lens5QUAAAAAJ7tp_60LCjEwKFBfzsaQxJMGstY"></div>
+
+				<button class="btn btn-primary" type="submit">Submit Form</button>
 			</form>
+			<!-- END CONTACT FORM -->
+			<div id="output-area"></div>
 		</div>
 		
 	</body>
-	<footer>
+	<footer class="py-4 text-white">
+		<div class="container">
+			<a class="text-white" href="https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/"
+				target="_blank">Documentation</a> | <a class="text-white" href="https://github.com/rlewis2892/pwp-form-demo" target="_blank">GitHub</a>
+		</div>
 		<div class="mx-auto" style="width: 200px;">
 			<button type="button" class="btn mb-3 btn-outline-success btn-small font-weight-light">CREATED BY NEHOMAH</button>
 		</div>
 	</footer>
+
+
 </html>
