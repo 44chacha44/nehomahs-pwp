@@ -1,6 +1,6 @@
 {
   "require": {
-    "swiftmailer/swiftmailer": "@stable",
+    "swiftmailer/swiftmailer": "^6.0",
     "google/recaptcha": "~1.1"
   }
 }
