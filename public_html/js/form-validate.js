@@ -70,7 +70,7 @@ $(document).ready(function() {
 						$("#output-area").css("display", "");
 
 						//write the servers reply to the output area
-						$("#output-area").html(ajaxOutput);
+						$("#output").html(ajaxOutput);
 
 						// reset the form if it was successful
 						if($(".alert-success").length >= 1) {
