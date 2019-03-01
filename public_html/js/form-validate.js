@@ -24,38 +24,38 @@ $(document).ready(function() {
 			// rules here define what is good or bad input
 			// each rule starts with the form input elements NAME attribute
 			rules: {
-				firstName: {
+				name: {
 					require: true
 				},
-				lastName: {
+				subject: {
 					require: true
 				},
-				emailAddress: {
+				email: {
 					email: true,
 					required: true
 				},
 				message: {
 					required: true,
-					maxLength: 2000,
-					minLength: 10
+					maxlength: 2000,
+					minlength: 10
 				}
 			},
 			// error messages to display to the end user when rules above don't pass
 			messages: {
-						firstName: {
+						name: {
 								required: "who dis is?"
 				},
-						lastName: {
+						subject: {
 								required: "who dis is?"
 				},
-						emailAddress: {
+						email: {
 								email: "real email addy required",
 								required: "gimme your email addy"
 				},
 						message: {
 								required: "tell us your thoughts",
-								maxLength: "2000 characters max",
-								minLength: "10 characters min"
+								maxlength: "2000 characters max",
+								minlength: "10 characters min"
 				}
 			},
 

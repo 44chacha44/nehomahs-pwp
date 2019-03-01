@@ -45,7 +45,7 @@
 					<div class="collapse navbar-collapse" id="navbarText">
 						<ul class="navbar-nav mx-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~nmora9/nehomahs-pwp/public_html/index.php#about">ABOUT</a>
+								<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~nmora9/nehomahs-pwp/public_html/index.php#vision">VISION</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~nmora9/nehomahs-pwp/public_html/index.php#members">MEMBERS</a>
@@ -65,15 +65,19 @@
 		</header>
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-2 text-center">SUNKA SKA SINGERS</h1>
+				<h1 class="display-2 text-center">SUNKA SKA HOKA</h1>
+				<p class="lead text-center">(WHITE DOG SINGERS)</p>
 				<p class="lead text-center">ALBUQUERQUE, NEW MEXICO</p>
 			</div>
 		</div>
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h2 class="display-4 text-center"><a id="about">
-						<img src="sssgroup.jpg" class="img-fluid" alt="Responsive image"></a></h2>
-				<p class="lead text-center">A'ho! Our group was formed.....and then............and then.......................and then.................. something......................blah. ........................la..................................... de.................................................... da................................... blah............................................. de................................ lah........................................................... do....................................... re................................................. mi........................................ fa........................................................ so................................... ti.............................................................. do.</p>
+				<h2 class="display-4 text-center"><a id="vision">
+						<img src="img/sssgroup.jpg" class="img-fluid" alt="Responsive image"></a></h2>
+				<p class="lead text-center">A'ho! We are an intertribal Northern/Lakota style Native American drum group that performs and composes traditional social and ceremonial songs for the public at various gatherings and events.</p>
+				<p>Our drum name Sunka Ska Hoka (White Dog Singers) along with its traditional explanatory oral narrative was awarded to us by Boye Ladd, Ho-Chunk Red Feather Owner and honored Purple Heart Vietnam Veteran. It reflects the respect for the drum and the spiritual basis for our Northern/Lakota song and dance traditions.</p>
+				<p>We are especially committed to performing the traditional types of songs which have been rendered by generations of various song makers and performers --especially that of the Lakota of the Northern Plains. We perform a broad variety of appropriate social dance songs for the various Native powwow gatherings in the Southwest area.</p>
+				<p>As a specific commitment, we strive to provide and share support, honoring and healing for our Native veterans and the same for their families, via our indigenous traditional ceremonies and songs. We are welcoming of all veterans.</p>
 			</div>
 		</div>
 
@@ -86,7 +90,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
-						<img src="simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+						<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
 				</div>
 				<div class="col-sm-9">
 						<div class="mx-auto m-2 p-5">
@@ -104,7 +108,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-						<img src="simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+						<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
 				</div>
 			</div>
 		</div>
@@ -112,7 +116,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
-					<img src="simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+					<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
 				</div>
 				<div class="col-sm-9">
 					<div class="mx-auto m-2 p-5">
@@ -130,7 +134,7 @@
 						</div>
 					</div>
 					<div class="col-sm-3">
-						<img src="simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+						<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
 					</div>
 				</div>
 			</div>
@@ -138,7 +142,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
-					<img src="simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+					<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
 				</div>
 				<div class="col-sm-9">
 					<div class="mx-auto m-2 p-5">
@@ -156,7 +160,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-					<img src="simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+					<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
 				</div>
 			</div>
 		</div>
@@ -188,54 +192,44 @@
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
 				<h1 class="display-4 text-center"><a id="contact">CONTACT US</a></h1>
-				<p class="lead text-center">This will be the correct form when I get the code</p>
+				<p class="lead text-center">Use the form below to send us an e-mail</p>
 			</div>
 		</div>
 
-		<div class="container m-5 p-2">
-			<form id="contact-form" class="needs-validation" action="php/mailer.php" method="post" novalidate>
-				<div class="form-row">
-					<div class="col-md-4 mb-3">
-						<label for="validationCustom01">First name</label>
-						<input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Shunka" required>
-						<div class="valid-feedback">
-							You have a nice name!
-						</div>
-					</div>
-					<div class="col-md-4 mb-3">
-						<label for="validationCustom02">Last name</label>
-						<input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Ska" required>
-						<div class="valid-feedback">
-							You have a nice name!
-						</div>
-					</div>
-					<div class="col-md-4 mb-3">
-						<label for="validationCustomUsername">E-Mail address</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text" id="inputGroupPrepend">@</span>
-							</div>
-							<input type="text" class="form-control" id="validationCustomUsername" placeholder="Email address" aria-describedby="inputGroupPrepend" required>
-							<div class="invalid-feedback">
-								Please enter your e-mail address.
-							</div>
-						</div>
+		<div class="container">
+		<form id="contact-form" action="php/mailer.php" method="post">
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<div class="mx-auto m-2 p-2">
+					<label for="first-name">First Name</label>
+					<input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name">
 					</div>
 				</div>
-				<div class="form-row">
-					<div class="col-lg-12 mb-3">
-						<label for="validationCustom03">Message</label>
-						<input type="text" class="form-control" id="validationCustom03" placeholder="Message" required>
-						<div class="invalid-feedback">
-							Please provide a message.
-						</div>
+				<div class="form-group col-md-6">
+					<div class="mx-auto m-2 p-2">
+					<label for="last-name">Last Name</label>
+					<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name">
 					</div>
 				</div>
-
-				<div class="g-recaptcha" data-sitekey="6LeQtZQUAAAAAJngS1nDJmNeDoT72yQ6qN79-oSU"></div>
-
-				<button class="btn btn-primary" type="submit">Submit Form</button>
-			</form>
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-12">
+					<div class="mx-auto m-2 p-2">
+					<label for="email-address">E-Mail Address</label>
+					<input type="email" class="form-control" id="email-address" name="last-name" placeholder="example@example.com">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="mx-auto m-2 p-2">
+				<label for="message">Message</label>
+				<input type="text" class="form-control" id="message" name="message" placeholder="Type your message here">
+				</div>
+			</div>
+			<div class="g-recaptcha" data-sitekey="6LeQtZQUAAAAAJngS1nDJmNeDoT72yQ6qN79-oSU"></div>
+			<button type="submit" class="btn btn-primary">Send Message</button>
+		</form>
+		</div>
 			<!-- END CONTACT FORM -->
 			<div id="output-area"></div>
 		</div>

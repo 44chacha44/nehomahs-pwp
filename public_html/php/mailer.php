@@ -33,9 +33,9 @@ try {
 	 * so we're using the $_POST superglobal.
 	 *
 	 **/
-	$firstName = filter_input(INPUT_POST, "first-name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$lastName = filter_input(INPUT_POST, "last-name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$emailAddress = filter_input(INPUT_POST, "email-address", FILTER_SANITIZE_EMAIL);
+	$name = filter_input(INPUT_POST, "first-name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$subject = filter_input(INPUT_POST, "last-name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$email = filter_input(INPUT_POST, "email-address", FILTER_SANITIZE_EMAIL);
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	// create SendGrid object
@@ -45,17 +45,20 @@ try {
 	 * Attach the sender to the message.
 	 * This takes the form of an associative array where $email is the key for the real name.
 	 **/
-	$emailObject->setFrom($email, $firstName, $lastName);
+	$emailObject->setFrom($email, $name);
 
 	/**
 	 * Attach the recipients to the message.
 	 * $MAIL_RECIPIENTS is set in mail-config.php
 	 **/
 	$recipients = $MAIL_RECIPIENTS;
-	$emailObject->addTo("sunkaskasingers@yahoo.com", "Sunka Ska");
+	$emailObject->addTo($recipients[0]);
+
+	// attach the subject line to the message
+	$emailObject->setSubject($subject);
 
 	// attach the message for the email
-	$emailObject->addMessage("text/plain", $message);
+	$emailObject->addContent("text/plain", $message);
 
 	/**
 	 *  Using the SendGrid object from above call the send method and use the emailObject as an argument.
