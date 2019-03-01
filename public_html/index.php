@@ -74,10 +74,10 @@
 			<div class="container">
 				<h2 class="display-4 text-center"><a id="vision">
 						<img src="img/sssgroup.jpg" class="img-fluid" alt="Responsive image"></a></h2>
-				<p class="lead text-center">A'ho! We are an intertribal Northern/Lakota style Native American drum group that performs and composes traditional social and ceremonial songs for the public at various gatherings and events.</p>
-				<p>Our drum name Sunka Ska Hoka (White Dog Singers) along with its traditional explanatory oral narrative was awarded to us by Boye Ladd, Ho-Chunk Red Feather Owner and honored Purple Heart Vietnam Veteran. It reflects the respect for the drum and the spiritual basis for our Northern/Lakota song and dance traditions.</p>
-				<p>We are especially committed to performing the traditional types of songs which have been rendered by generations of various song makers and performers --especially that of the Lakota of the Northern Plains. We perform a broad variety of appropriate social dance songs for the various Native powwow gatherings in the Southwest area.</p>
-				<p>As a specific commitment, we strive to provide and share support, honoring and healing for our Native veterans and the same for their families, via our indigenous traditional ceremonies and songs. We are welcoming of all veterans.</p>
+				<p class="lead text-center">A'HO! WE ARE AN INTER-TRIBAL NORTHER/LAKOTA STYLE NATIVE AMERICAN DRUM GROUP THAT PERFORMS AND COMPOSES TRADITIONAL SOCIAL AND CEREMONIAL SONGS FOR THE PUBLIC AT VARIOUS GATHERINGS AND EVENTS</p>
+				<p class="lead text-center">OUR DRUM NAME SUNKA SKA HOKA (WHITE DOG SINGERS) ALONG WITH ITS TRADITIONAL EXPLANATORY ORAL NARRATIVE WAS AWARDED TO US BY BOYE LADD, HOW-CHUNK RED FEATHER OWNER AND HONORED PURPLE HEART VIETNAM VETERAN. IT REFLECTS THE RESPECT FOR THE DRUM AND THE SPIRITUAL BASIS FOR OUR NORTHERN/LAKOTA SONG AND DANCE TRADITIONS.</p>
+				<p class="lead text-center">WE ARE ESPECIALLY COMMITTED TO PERFORMING THE TRADITIONAL TYPES OF SONGS WHICH HAVE BEEN RENDERED BY GENERATIONS OF VARIOUS SONG MAKERS AND PERFORMERS --ESPECIALLY THAT OF THE LAKOTA OF THE NORTHERN PLAINS. WE PERFORM A BROAD VARIETY OF APPROPRIATE SOCIAL DANCE SONGS FOR THE VARIOUS NATIVE POWWOW GATHERINGS IN THE SOUTHWEST AREA.</p>
+				<p class="lead text-center">AS A SPECIFIC COMMITMENT, WE STRIVE TO PROVIDE AND SHARE SUPPORT, HONORING AND HEALING FOR OUR NATIVE VETERANS AND THE SAME FOR THEIR FAMILIES, VIA OUR INDIGENOUS TRADITIONAL CEREMONIES AND SONGS. WE ARE WELCOMING OF ALL VETERANS.</p>
 			</div>
 		</div>
 
@@ -94,7 +94,7 @@
 				</div>
 				<div class="col-sm-9">
 						<div class="mx-auto m-2 p-5">
-							<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+							<p class="text-justify"><strong>JAMES SANDAVOL</strong> IS A MEMBER OF THE SAN FELIPE TRIBE. IN HIS 30 YEARS OF SINGING EXPERIENCE, HE HAS BECOME A CHAMPION OF PRESERVING THE TRADITIONAL SONGS. THIS DEDICATION FIT PERFECTLY WITH SUNKA SKA'S VISION WHICH HAS LEAD TO 7 YEARS WITH US. SINGING HAS ALLOWED HIM TO MAKE PEOPLE HAPPY AND TO HEAL SOULS. ANY TIME HE IS PARTICIPATING AT ANY EVENT WITH OTHER DRUMMERS AND SINGERS IS A MEMORABLE ONE. SHARING HIS KNOWLEDGE IS IMPORTANT AND WE ARE HONORED TO SING WITH HIM.</p>
 						</div>
 				</div>
 			</div>

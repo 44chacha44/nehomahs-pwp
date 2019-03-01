@@ -39,7 +39,7 @@ try {
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	// create SendGrid object
-	$emailObject = new Mail();
+	$emailObject = new \SendGrid\Mail\Mail();
 
 	/**
 	 * Attach the sender to the message.
@@ -52,7 +52,7 @@ try {
 	 * $MAIL_RECIPIENTS is set in mail-config.php
 	 **/
 	$recipients = $MAIL_RECIPIENTS;
-	$emailObject->addTo($recipients[0]);
+	$emailObject->addTo($recipients[0], $recipients[1]);
 
 	// attach the subject line to the message
 	$emailObject->setSubject($subject);
