@@ -11,9 +11,15 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 		<!-- jQuery first, popper.js, then bootstrap js -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
 
 		<!-- JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
@@ -187,7 +193,7 @@
 		</div>
 
 		<div class="container m-5 p-2">
-			<form class="needs-validation" novalidate>
+			<form id="contact-form" class="needs-validation" action="php/mailer.php" method="post" novalidate>
 				<div class="form-row">
 					<div class="col-md-4 mb-3">
 						<label for="validationCustom01">First name</label>
@@ -226,7 +232,7 @@
 					</div>
 				</div>
 
-				<div class="g-recaptcha" data-sitekey="6Lens5QUAAAAAJ7tp_60LCjEwKFBfzsaQxJMGstY"></div>
+				<div class="g-recaptcha" data-sitekey="6LeQtZQUAAAAAJngS1nDJmNeDoT72yQ6qN79-oSU"></div>
 
 				<button class="btn btn-primary" type="submit">Submit Form</button>
 			</form>
@@ -234,7 +240,7 @@
 			<div id="output-area"></div>
 		</div>
 		
-	</body>
+
 	<footer class="py-4 text-white">
 		<div class="container">
 			<a class="text-white" href="https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/"
@@ -244,6 +250,6 @@
 			<button type="button" class="btn mb-3 btn-outline-success btn-small font-weight-light">CREATED BY NEHOMAH</button>
 		</div>
 	</footer>
-
+	</body>
 
 </html>

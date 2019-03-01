@@ -14,7 +14,7 @@ $(document).ready(function() {
 	 **/
 
 	/** begin validate function here*/
-	$("#my-contact-form"). validate(
+	$("#contact-form"). validate(
 		{
 			debug: true,
 			errorClass: "alert alert-danger",
@@ -61,20 +61,20 @@ $(document).ready(function() {
 
 			// AJAX submit the form data to back end if rules pass
 			submitHandler: function(form) {
-				$("my-contact-form").ajaxSubmit({
+				$("#contact-form").ajaxSubmit({
 					type: "POST",
-					url: $("#my-contact-form").attr("action"),
+					url: $("#contact-form").attr("action"),
 
 					success: function(ajaxOutput) {
 						// clear the output areas formatting
 						$("#output-area").css("display", "");
 
 						//write the servers reply to the output area
-						$("#output").html(ajaxOutput);
+						$("#output-area").html(ajaxOutput);
 
 						// reset the form if it was successful
 						if($(".alert-success").length >= 1) {
-							$("#my-contact-form")[0].reset();
+							$("#contact-form")[0].reset();
 						}
 					}
 				})
