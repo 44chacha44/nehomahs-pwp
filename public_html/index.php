@@ -36,7 +36,7 @@
 		<!-- navbar -->
 		<header>
 		<div id="background">
-			<div>
+			<div class="container">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
 					<a class="navbar-text" href="#">SUNKA SKA</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,7 +65,7 @@
 		</header>
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-2 text-center">SUNKA SKA HOKA</h1>
+				<h1 class="display-2 text-center">ŠÚŊKA SKÁ HOKA</h1>
 				<p class="lead text-center">(WHITE DOG SINGERS)</p>
 				<p class="lead text-center">ALBUQUERQUE, NEW MEXICO</p>
 			</div>
