@@ -5,8 +5,8 @@ body {
 
 @font-face {
 	font-family: 'rc_charis_silregular';
-	src: url('fonts/rccharissilr-webfont.woff2') format('woff2'),
-	url('fonts/rccharissilr-webfont.woff') format('woff');
+	src: url('../fonts/rccharissilr-webfont.woff2') format('woff2'),
+	url('../fonts/rccharissilr-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -16,20 +16,12 @@ html { display: flex;}
 body { width: 100%;}
 
 /********Navbar********/
-.header {
-	color: #FFFFFF !important;
-}
 
-.container {
-	background: transparent !important;
-}
-
-.container .navbar {
+.mynav .navbar {
 	background: #FFFFFF !important;
 }
 
 .jumbotron {
-	color: #FFFFFF !important;
 	background: #FFFFFF !important;
 }
 

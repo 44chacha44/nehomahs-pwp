@@ -10,6 +10,9 @@
 		<!-- link bootstrap css -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+		<!--address bar icon-->
+		<link rel="icon" href="img/meddrum.png">
+
 		<!-- jQuery first, popper.js, then bootstrap js -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -35,10 +38,10 @@
 	<body>
 		<!-- navbar -->
 		<header>
-		<div>
-			<div id="navbar" class="container">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					<a class="navbar-text" href="#">SUNKA SKA</a>
+		<div class="mynav">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container">
+					<a class="navbar-text" href="#">ŠÚŊKA SKÁ</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -74,8 +77,9 @@
 			<div class="container">
 				<h2 class="display-4 text-center"><a id="vision">
 						<img src="img/sssgroupPic1.jpg" class="img-fluid" alt="Responsive image"></a></h2>
-				<p class="lead text-center">A'HO! WE ARE AN INTER-TRIBAL NORTHERN/LAKOTA STYLE NATIVE AMERICAN DRUM GROUP THAT PERFORMS AND COMPOSES TRADITIONAL SOCIAL AND CEREMONIAL SONGS FOR THE PUBLIC AT VARIOUS GATHERINGS AND EVENTS</p>
-				<p class="lead text-center">OUR DRUM NAME ŠÚŊKA SKÁ HOKA (WHITE DOG SINGERS) ALONG WITH ITS TRADITIONAL EXPLANATORY ORAL NARRATIVE WAS AWARDED TO US BY BOYE LADD, HOW-CHUNK RED FEATHER OWNER AND HONORED PURPLE HEART VIETNAM VETERAN. IT REFLECTS THE RESPECT FOR THE DRUM AND THE SPIRITUAL BASIS FOR OUR NORTHERN/LAKOTA SONG AND DANCE TRADITIONS.</p>
+				<p class="lead text-center">A'HO!</p>
+				<p class="lead text-center">WE ARE AN INTER-TRIBAL NORTHERN/LAKOTA STYLE NATIVE AMERICAN DRUM GROUP THAT PERFORMS AND COMPOSES TRADITIONAL SOCIAL AND CEREMONIAL SONGS FOR THE PUBLIC AT VARIOUS GATHERINGS AND EVENTS.</p>
+				<p class="lead text-center">OUR DRUM NAME ŠÚŊKA SKÁ HOKA (WHITE DOG SINGERS) ALONG WITH ITS TRADITIONAL EXPLANATORY ORAL NARRATIVE WAS AWARDED TO US BY BOYE LADD, HO-CHUNK RED FEATHER OWNER AND HONORED PURPLE HEART VIETNAM VETERAN. IT REFLECTS THE RESPECT FOR THE DRUM AND THE SPIRITUAL BASIS FOR OUR NORTHERN/LAKOTA SONG AND DANCE TRADITIONS.</p>
 				<p class="lead text-center">WE ARE ESPECIALLY COMMITTED TO PERFORMING THE TRADITIONAL TYPES OF SONGS WHICH HAVE BEEN RENDERED BY GENERATIONS OF VARIOUS SONG MAKERS AND PERFORMERS --ESPECIALLY THAT OF THE LAKOTA OF THE NORTHERN PLAINS. WE PERFORM A BROAD VARIETY OF APPROPRIATE SOCIAL DANCE SONGS FOR THE VARIOUS NATIVE POWWOW GATHERINGS IN THE SOUTHWEST AREA.</p>
 				<p class="lead text-center">AS A SPECIFIC COMMITMENT, WE STRIVE TO PROVIDE AND SHARE SUPPORT, HONORING AND HEALING FOR OUR NATIVE VETERANS AND THE SAME FOR THEIR FAMILIES, VIA OUR INDIGENOUS TRADITIONAL CEREMONIES AND SONGS. WE ARE WELCOMING OF ALL VETERANS.</p>
 			</div>
@@ -90,7 +94,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
-						<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+						<img src="img/james.jpg" class="img-fluid" alt="James">
 				</div>
 				<div class="col-sm-9">
 						<div class="mx-auto m-2 p-5">
@@ -104,11 +108,11 @@
 			<div class="row flex-column-reverse flex-md-row">
 				<div class="col-sm-9">
 					<div class="mx-auto m-2 p-5">
-						<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+						<p class="text-justify"><strong>RONNIE THEISZ</strong> IS ORIGINALLY FROM SOUTH DAKOTA AND NOW CALLS WEST SIDE ALBUQUERQUE HOME. HE SANG WITH PORCUPINE SINGERS (ROSEBUD AND PINE RIDGE, SD) FROM 1972-2008 WHERE HIS PASSION FOR SINGING THE TRADITIONAL LAKOTA SONGS BEGAN. HE HAS BEEN WITH US SINCE THE VERY FIRST GATHERING HONORING VETERANS RETURNING FROM KOSOVO IN 2011. SHARING HIS GIFT OF SINGING FOR THE PEOPLE WITH THE TRADITIONAL SONGS IS VERY MEANINGFUL AND SATISFYING.</p>
 					</div>
 				</div>
 				<div class="col-sm-3">
-						<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+						<img src="img/ronnie.jpg" class="img-fluid" alt="Ronnie">
 				</div>
 			</div>
 		</div>
@@ -116,11 +120,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
-					<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+					<img src="img/wally.jpg" class="img-fluid" alt="Wally">
 				</div>
 				<div class="col-sm-9">
 					<div class="mx-auto m-2 p-5">
-						<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+						<p class="text-justify"><strong>Wally Baldwin</strong> IS AN ALBUQUERQUE RESIDENT FROM THE DINÉ NATION. HE HAS BEEN SINGING FOR 25 YEARS AND ENJOYS EDUCATING THE PEOPLE ON THE LAKOTA SONGS. HE HAS SEEN THE DECLINE IN KNOWLEDGE OF TRADITIONAL WAYS AND WANTS TO PRESERVE WHAT HE CAN. HIS MOST MEMORABLE EVENT WITH THE GROUP WAS THE FIRST ONE, HONORING HIS VETERAN DAUGHTER. </p>
 					</div>
 				</div>
 			</div>
@@ -130,11 +134,11 @@
 			<div class="row flex-column-reverse flex-md-row">
 				<div class="col-sm-9">
 					<div class="mx-auto m-2 p-5">
-							<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+							<p class="text-justify"><strong>TOM TEEGARDEN</strong> HAS BEEN WITH THE GROUP FROM DAY ONE AND IS A FOUNTAIN OF KNOWLEDGE. HONORING OUR ANCESTORS AND PASSING ALONG THEIR WISDOM IS A PERSONAL MISSION FOR HIM. SINGING AT THE DRUM WITH THIS GROUP HAS BEEN A REWARDING EXPERIENCE.</p>
 						</div>
 					</div>
 					<div class="col-sm-3">
-						<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+						<img src="img/tom.jpg" class="img-fluid" alt="Tom">
 					</div>
 				</div>
 			</div>
@@ -142,11 +146,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
-					<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+					<img src="img/mike.jpg" class="img-fluid" alt="Mike">
 				</div>
 				<div class="col-sm-9">
 					<div class="mx-auto m-2 p-5">
-						<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+						<p class="text-justify"><strong>MIKE TOYA</strong> IS A SINGER AND DANCER EXTRAORDINAIRE. HE BEGAN BOTH OVER 30 YEARS AGO AND STILL IS PASSIONATE ABOUT THEM TO THIS DAY. HIS KNOWLEDGE OF THE JEMEZ AND LAKOTA TRADITIONS ARE A GREAT ADDITION TO OUR GROUP. HE ENJOYS MEETING PEOPLE AND MAKING NEW FRIENDS TO OPEN THE DOOR FOR SHARING HIS KNOWLEDGE.</p>
 					</div>
 				</div>
 			</div>
@@ -156,19 +160,12 @@
 			<div class="row flex-column-reverse flex-md-row">
 				<div class="col-sm-9">
 					<div class="mx-auto m-2 p-5">
-						<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+						<p class="text-justify"><strong>PETE BEARSKIN</strong> IS A MEMBER OF THE NAVAJO TRIBE AND HAS BEEN SIGNING FOR OVER 15 YEARS. HE FIRST ENTERED THE POW WOW SCENE AS A NORTHERN TRADITIONAL DANCER. HE FOUND HE ENJOYED SINGING MORE THAN DANCING AND HAS BEEN WITH US SINCE 2017. HIS CALLING TO BE A SINGER AND SHARING TRADITIONS HAS ALLOWED HIM TO BE A GREAT ADDITION TO THE GROUP.</p>
 					</div>
 				</div>
-				<div class="col-sm-3">
-					<img src="img/simple-medicine-wheel.jpg" class="img-fluid" alt="Responsive image">
+				<div class="col-sm-3 mb-4">
+					<img src="img/pete.jpg" class="img-fluid" alt="Pete">
 				</div>
-			</div>
-		</div>
-
-		
-		<div class="container">
-			<div class="embed-responsive embed-responsive-16by9">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/goprKPIq8Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 
@@ -177,14 +174,21 @@
 				<h1 class="display-4 text-center"><a id="connect">CONNECT WITH US</a></h1>
 			</div>
 		</div>
+		
+		<div class="container p-2">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/goprKPIq8Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+
+		<div class="row justify-content-center m-4">
+			<div class="g-ytsubscribe" data-channelid="UCvJ6KUITMsejlbhNF4Hextw" data-layout="default" data-theme="dark" data-count="default"></div>
+		</div>
 
 		<div class="container">
-			<div class="row">
+			<div class="row justify-content-center m-3">
 				<div class="media col-8">
 					<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/578195133&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-				</div>
-				<div class="media col-4">
-					<div class="g-ytsubscribe" data-channelid="UCvJ6KUITMsejlbhNF4Hextw" data-layout="default" data-theme="dark" data-count="default"></div>
 				</div>
 			</div>
 		</div>
@@ -192,7 +196,7 @@
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
 				<h1 class="display-4 text-center"><a id="contact">CONTACT US</a></h1>
-				<p class="lead text-center">Use the form below to send us an e-mail</p>
+				<p class="lead text-center">GET IN TOUCH WITH US BY FILLING OUT THIS FORM. WE LOOK FORWARD TO HEARING FROM YOU</p>
 			</div>
 		</div>
 
@@ -233,7 +237,13 @@ placeholder="example@example.com">
 		</div>
 			<!-- END CONTACT FORM -->
 			<div id="output-area"></div>
-		</div>
+		
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4 text-center"><a id="contact">MITÁKUYE OYÁS'IŊ</a></h1>
+				<p class="lead text-center">THANK YOU FOR VISITING OUR SITE</p>
+			</div>
+		</div>	
 		
 
 	<footer class="py-4 text-white">
@@ -241,8 +251,8 @@ placeholder="example@example.com">
 			<a class="text-white" href="https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/"
 				target="_blank">Documentation</a> | <a class="text-white" href="https://github.com/rlewis2892/pwp-form-demo" target="_blank">GitHub</a>
 		</div>
-		<div class="mx-auto" style="width: 200px;">
-			<button type="button" class="btn mb-3 btn-outline-success btn-small font-weight-light">CREATED BY NEHOMAH</button>
+		<div class="row justify-content-center">
+			<button type="button" class="btn mb-1 btn-outline-success btn-small font-weight-light">CREATED BY</button>
 		</div>
 	</footer>
 	</body>
