@@ -45,7 +45,7 @@ try {
 	 * Attach the sender to the message.
 	 * This takes the form of an associative array where $email is the key for the real name.
 	 **/
-	$emailObject->setFrom($email, $name);
+	$emailObject->setFrom($email);
 
 	/**
 	 * Attach the recipients to the message.
@@ -68,5 +68,5 @@ try {
 	// report a successful send!
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email sent successfully.</div>";
 } catch(\Exception $exception) {
-	echo "<div class= \"alert alert-danger\" role=\"alert\"><strong>Oops!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
+	echo "<div class= \"alert alert-danger\" role=\"alert\"><strong>Oops!</strong> Unable to send email: " . $exception->getTraceAsString() . "</div>";
 }

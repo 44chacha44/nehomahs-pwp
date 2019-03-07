@@ -35,8 +35,8 @@
 	<body>
 		<!-- navbar -->
 		<header>
-		<div id="background">
-			<div class="container">
+		<div>
+			<div id="navbar" class="container">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
 					<a class="navbar-text" href="#">SUNKA SKA</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,17 +65,17 @@
 		</header>
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-2 text-center">ŠÚŊKA SKÁ HOKA</h1>
-				<p class="lead text-center">(WHITE DOG SINGERS)</p>
+				<h1 class="display-2 text-center">ŠÚŊKA SKÁ SINGERS</h1>
+				<p class="lead text-center">(PRONOUNCED SHOON-KAH)</p>
 				<p class="lead text-center">ALBUQUERQUE, NEW MEXICO</p>
 			</div>
 		</div>
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
 				<h2 class="display-4 text-center"><a id="vision">
-						<img src="img/sssgroup.jpg" class="img-fluid" alt="Responsive image"></a></h2>
-				<p class="lead text-center">A'HO! WE ARE AN INTER-TRIBAL NORTHER/LAKOTA STYLE NATIVE AMERICAN DRUM GROUP THAT PERFORMS AND COMPOSES TRADITIONAL SOCIAL AND CEREMONIAL SONGS FOR THE PUBLIC AT VARIOUS GATHERINGS AND EVENTS</p>
-				<p class="lead text-center">OUR DRUM NAME SUNKA SKA HOKA (WHITE DOG SINGERS) ALONG WITH ITS TRADITIONAL EXPLANATORY ORAL NARRATIVE WAS AWARDED TO US BY BOYE LADD, HOW-CHUNK RED FEATHER OWNER AND HONORED PURPLE HEART VIETNAM VETERAN. IT REFLECTS THE RESPECT FOR THE DRUM AND THE SPIRITUAL BASIS FOR OUR NORTHERN/LAKOTA SONG AND DANCE TRADITIONS.</p>
+						<img src="img/sssgroupPic1.jpg" class="img-fluid" alt="Responsive image"></a></h2>
+				<p class="lead text-center">A'HO! WE ARE AN INTER-TRIBAL NORTHERN/LAKOTA STYLE NATIVE AMERICAN DRUM GROUP THAT PERFORMS AND COMPOSES TRADITIONAL SOCIAL AND CEREMONIAL SONGS FOR THE PUBLIC AT VARIOUS GATHERINGS AND EVENTS</p>
+				<p class="lead text-center">OUR DRUM NAME ŠÚŊKA SKÁ HOKA (WHITE DOG SINGERS) ALONG WITH ITS TRADITIONAL EXPLANATORY ORAL NARRATIVE WAS AWARDED TO US BY BOYE LADD, HOW-CHUNK RED FEATHER OWNER AND HONORED PURPLE HEART VIETNAM VETERAN. IT REFLECTS THE RESPECT FOR THE DRUM AND THE SPIRITUAL BASIS FOR OUR NORTHERN/LAKOTA SONG AND DANCE TRADITIONS.</p>
 				<p class="lead text-center">WE ARE ESPECIALLY COMMITTED TO PERFORMING THE TRADITIONAL TYPES OF SONGS WHICH HAVE BEEN RENDERED BY GENERATIONS OF VARIOUS SONG MAKERS AND PERFORMERS --ESPECIALLY THAT OF THE LAKOTA OF THE NORTHERN PLAINS. WE PERFORM A BROAD VARIETY OF APPROPRIATE SOCIAL DANCE SONGS FOR THE VARIOUS NATIVE POWWOW GATHERINGS IN THE SOUTHWEST AREA.</p>
 				<p class="lead text-center">AS A SPECIFIC COMMITMENT, WE STRIVE TO PROVIDE AND SHARE SUPPORT, HONORING AND HEALING FOR OUR NATIVE VETERANS AND THE SAME FOR THEIR FAMILIES, VIA OUR INDIGENOUS TRADITIONAL CEREMONIES AND SONGS. WE ARE WELCOMING OF ALL VETERANS.</p>
 			</div>
@@ -94,7 +94,7 @@
 				</div>
 				<div class="col-sm-9">
 						<div class="mx-auto m-2 p-5">
-							<p class="text-justify"><strong>JAMES SANDAVOL</strong> IS A MEMBER OF THE SAN FELIPE TRIBE. IN HIS 30 YEARS OF SINGING EXPERIENCE, HE HAS BECOME A CHAMPION OF PRESERVING THE TRADITIONAL SONGS. THIS DEDICATION FIT PERFECTLY WITH SUNKA SKA'S VISION WHICH HAS LEAD TO 7 YEARS WITH US. SINGING HAS ALLOWED HIM TO MAKE PEOPLE HAPPY AND TO HEAL SOULS. ANY TIME HE IS PARTICIPATING AT ANY EVENT WITH OTHER DRUMMERS AND SINGERS IS A MEMORABLE ONE. SHARING HIS KNOWLEDGE IS IMPORTANT AND WE ARE HONORED TO SING WITH HIM.</p>
+							<p class="text-justify"><strong>JAMES SANDAVOL</strong> IS A MEMBER OF THE SAN FELIPE TRIBE. IN HIS 30 YEARS OF SINGING EXPERIENCE, HE HAS BECOME A CHAMPION OF PRESERVING THE TRADITIONAL SONGS. THIS DEDICATION FIT PERFECTLY WITH ŠÚŊKA SKÁ'S VISION WHICH HAS LEAD TO 7 YEARS WITH US. SINGING HAS ALLOWED HIM TO MAKE PEOPLE HAPPY AND TO HEAL SOULS. ANY TIME HE IS PARTICIPATING AT AN EVENT WITH OTHER DRUMMERS AND SINGERS IS A MEMORABLE ONE. SHARING HIS KNOWLEDGE IS IMPORTANT AND WE ARE HONORED TO SING WITH HIM.</p>
 						</div>
 				</div>
 			</div>
@@ -168,7 +168,7 @@
 		
 		<div class="container">
 			<div class="embed-responsive embed-responsive-16by9">
-				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RFDGnZfvWrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/goprKPIq8Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 
@@ -216,7 +216,8 @@
 				<div class="form-group col-md-12">
 					<div class="mx-auto m-2 p-2">
 					<label for="email-address">E-Mail Address</label>
-					<input type="email" class="form-control" id="email-address" name="last-name" placeholder="example@example.com">
+					<input type="email" class="form-control" id="email-address" name="email-address"
+placeholder="example@example.com">
 					</div>
 				</div>
 			</div>
