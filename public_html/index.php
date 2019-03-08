@@ -41,7 +41,7 @@
 		<div class="mynav">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container">
-					<a class="navbar-text" href="#">ŠÚŊKA SKÁ</a>
+					<a class="navbar-text" href="#"><img src="img/smmeddrum.png" class="img-fluid" alt="meddrum"> </a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -76,7 +76,7 @@
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
 				<h2 class="display-4 text-center"><a id="vision">
-						<img src="img/sssgroupPic1.jpg" class="img-fluid" alt="Responsive image"></a></h2>
+						<img src="img/sssgroupPic1.jpg" class="img-fluid" alt="sssgrouppic1"></a></h2>
 				<p class="lead text-center">A'HO!</p>
 				<p class="lead text-center">WE ARE AN INTER-TRIBAL NORTHERN/LAKOTA STYLE NATIVE AMERICAN DRUM GROUP THAT PERFORMS AND COMPOSES TRADITIONAL SOCIAL AND CEREMONIAL SONGS FOR THE PUBLIC AT VARIOUS GATHERINGS AND EVENTS.</p>
 				<p class="lead text-center">OUR DRUM NAME ŠÚŊKA SKÁ HOKA (WHITE DOG SINGERS) ALONG WITH ITS TRADITIONAL EXPLANATORY ORAL NARRATIVE WAS AWARDED TO US BY BOYE LADD, HO-CHUNK RED FEATHER OWNER AND HONORED PURPLE HEART VIETNAM VETERAN. IT REFLECTS THE RESPECT FOR THE DRUM AND THE SPIRITUAL BASIS FOR OUR NORTHERN/LAKOTA SONG AND DANCE TRADITIONS.</p>
@@ -87,7 +87,7 @@
 
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-4 text-center"><a id="members">MEMBERS</a></h1>
+				<h1 class="display-4 text-center"><img src="img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="members">MEMBERS</a></h1>
 			</div>
 		</div>
 		
@@ -124,7 +124,7 @@
 				</div>
 				<div class="col-sm-9">
 					<div class="mx-auto m-2 p-5">
-						<p class="text-justify"><strong>Wally Baldwin</strong> IS AN ALBUQUERQUE RESIDENT FROM THE DINÉ NATION. HE HAS BEEN SINGING FOR 25 YEARS AND ENJOYS EDUCATING THE PEOPLE ON THE LAKOTA SONGS. HE HAS SEEN THE DECLINE IN KNOWLEDGE OF TRADITIONAL WAYS AND WANTS TO PRESERVE WHAT HE CAN. HIS MOST MEMORABLE EVENT WITH THE GROUP WAS THE FIRST ONE, HONORING HIS VETERAN DAUGHTER. </p>
+						<p class="text-justify"><strong>WALLY BALDWIN</strong> IS AN ALBUQUERQUE RESIDENT FROM THE DINÉ NATION. HE HAS BEEN SINGING FOR 25 YEARS AND ENJOYS EDUCATING THE PEOPLE ON THE LAKOTA SONGS. HE HAS SEEN THE DECLINE IN KNOWLEDGE OF TRADITIONAL WAYS AND WANTS TO PRESERVE WHAT HE CAN. HIS MOST MEMORABLE EVENT WITH THE GROUP WAS THE FIRST ONE, HONORING HIS VETERAN DAUGHTER. </p>
 					</div>
 				</div>
 			</div>
@@ -171,7 +171,7 @@
 
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-4 text-center"><a id="connect">CONNECT WITH US</a></h1>
+				<h1 class="display-4 text-center"><img src="img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="connect">CONNECT WITH US</a></h1>
 			</div>
 		</div>
 		
@@ -195,8 +195,8 @@
 
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-4 text-center"><a id="contact">CONTACT US</a></h1>
-				<p class="lead text-center">GET IN TOUCH WITH US BY FILLING OUT THIS FORM. WE LOOK FORWARD TO HEARING FROM YOU</p>
+				<h1 class="display-4 text-center"><img src="img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="contact">CONTACT US</a></h1>
+				<p class="lead text-center">GET IN TOUCH WITH US BY FILLING OUT THIS FORM. WE LOOK FORWARD TO HEARING FROM YOU.</p>
 			</div>
 		</div>
 
@@ -231,8 +231,8 @@ placeholder="example@example.com">
 				<input type="text" class="form-control" id="message" name="message" placeholder="Type your message here">
 				</div>
 			</div>
-			<div class="g-recaptcha" data-sitekey="6LeQtZQUAAAAAJngS1nDJmNeDoT72yQ6qN79-oSU"></div>
-			<button type="submit" class="btn btn-primary">Send Message</button>
+			<div class="g-recaptcha justify-content-center" data-sitekey="6LeQtZQUAAAAAJngS1nDJmNeDoT72yQ6qN79-oSU"></div>
+			<button type="submit" class="btn btn-primary justify-content-center">Send Message</button>
 		</form>
 		</div>
 			<!-- END CONTACT FORM -->
@@ -240,21 +240,17 @@ placeholder="example@example.com">
 		
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-4 text-center"><a id="contact">MITÁKUYE OYÁS'IŊ</a></h1>
+				<h1 class="display-4 text-center"><img src="img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="contact">MITÁKUYE OYÁS'IŊ</a></h1>
 				<p class="lead text-center">THANK YOU FOR VISITING OUR SITE</p>
 			</div>
 		</div>	
 		
 
-	<footer class="py-4 text-white">
 		<div class="container">
-			<a class="text-white" href="https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/"
-				target="_blank">Documentation</a> | <a class="text-white" href="https://github.com/rlewis2892/pwp-form-demo" target="_blank">GitHub</a>
+			<div class="row justify-content-center">
+				<button type="button" class="btn mb-1 btn-outline-success btn-small font-weight-light"><a href="https://nehomah.github.io/">CREATED BY</a></button>
+			</div>
 		</div>
-		<div class="row justify-content-center">
-			<button type="button" class="btn mb-1 btn-outline-success btn-small font-weight-light">CREATED BY</button>
-		</div>
-	</footer>
 	</body>
 
 </html>
