@@ -5,13 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
 
 		<!--link my css -->
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
 
 		<!-- link bootstrap css -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 		<!--address bar icon-->
-		<link rel="icon" href="img/meddrum.png">
+		<link rel="icon" href="../img/meddrum.png">
 
 		<!-- jQuery first, popper.js, then bootstrap js -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
@@ -41,7 +41,7 @@
 		<div class="mynav">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container">
-					<a class="navbar-text" href="#"><img src="img/smmeddrum.png" class="img-fluid" alt="meddrum"> </a>
+					<a class="navbar-text" href="#"><img src="../img/smmeddrum.png" class="img-fluid" alt="meddrum"> </a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -76,7 +76,7 @@
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
 				<h2 class="display-4 text-center"><a id="vision">
-						<img src="img/sssgroupPic1.jpg" class="img-fluid" alt="sssgrouppic1"></a></h2>
+						<img src="../img/sssgroupPic1.jpg" class="img-fluid" alt="sssgrouppic1"></a></h2>
 				<p class="lead text-center">A'HO!</p>
 				<p class="lead text-center">WE ARE AN INTER-TRIBAL NORTHERN/LAKOTA STYLE NATIVE AMERICAN DRUM GROUP THAT PERFORMS AND COMPOSES TRADITIONAL SOCIAL AND CEREMONIAL SONGS FOR THE PUBLIC AT VARIOUS GATHERINGS AND EVENTS.</p>
 				<p class="lead text-center">OUR DRUM NAME ŠÚŊKA SKÁ HOKA (WHITE DOG SINGERS) ALONG WITH ITS TRADITIONAL EXPLANATORY ORAL NARRATIVE WAS AWARDED TO US BY BOYE LADD, HO-CHUNK RED FEATHER OWNER AND HONORED PURPLE HEART VIETNAM VETERAN. IT REFLECTS THE RESPECT FOR THE DRUM AND THE SPIRITUAL BASIS FOR OUR NORTHERN/LAKOTA SONG AND DANCE TRADITIONS.</p>
@@ -87,14 +87,14 @@
 
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-4 text-center"><img src="img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="members">MEMBERS</a></h1>
+				<h1 class="display-4 text-center"><img src="../img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="members">MEMBERS</a></h1>
 			</div>
 		</div>
 		
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
-						<img src="img/james.jpg" class="img-fluid" alt="James">
+						<img src="../img/james.jpg" class="img-fluid" alt="James">
 				</div>
 				<div class="col-sm-9">
 						<div class="mx-auto m-2 p-5">
@@ -112,7 +112,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3">
-						<img src="img/ronnie.jpg" class="img-fluid" alt="Ronnie">
+						<img src="../img/ronnie.jpg" class="img-fluid" alt="Ronnie">
 				</div>
 			</div>
 		</div>
@@ -120,7 +120,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
-					<img src="img/wally.jpg" class="img-fluid" alt="Wally">
+					<img src="../img/wally.jpg" class="img-fluid" alt="Wally">
 				</div>
 				<div class="col-sm-9">
 					<div class="mx-auto m-2 p-5">
@@ -138,7 +138,7 @@
 						</div>
 					</div>
 					<div class="col-sm-3">
-						<img src="img/tom.jpg" class="img-fluid" alt="Tom">
+						<img src="../img/tom.jpg" class="img-fluid" alt="Tom">
 					</div>
 				</div>
 			</div>
@@ -146,7 +146,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
-					<img src="img/mike.jpg" class="img-fluid" alt="Mike">
+					<img src="../img/mike.jpg" class="img-fluid" alt="Mike">
 				</div>
 				<div class="col-sm-9">
 					<div class="mx-auto m-2 p-5">
@@ -164,14 +164,14 @@
 					</div>
 				</div>
 				<div class="col-sm-3 mb-4">
-					<img src="img/pete.jpg" class="img-fluid" alt="Pete">
+					<img src="../img/pete.jpg" class="img-fluid" alt="Pete">
 				</div>
 			</div>
 		</div>
 
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-4 text-center"><img src="img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="connect">CONNECT WITH US</a></h1>
+				<h1 class="display-4 text-center"><img src="../img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="connect">CONNECT WITH US</a></h1>
 			</div>
 		</div>
 		
@@ -195,13 +195,13 @@
 
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-4 text-center"><img src="img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="contact">CONTACT US</a></h1>
+				<h1 class="display-4 text-center"><img src="../img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="contact">CONTACT US</a></h1>
 				<p class="lead text-center">GET IN TOUCH WITH US BY FILLING OUT THIS FORM. WE LOOK FORWARD TO HEARING FROM YOU.</p>
 			</div>
 		</div>
 
 		<div class="container">
-		<form id="contact-form" action="php/mailer.php" method="post">
+		<form id="contact-form" action="../php/mailer.php" method="post">
 			<div class="form-row">
 				<div class="form-group col-md-6">
 					<div class="mx-auto m-2 p-2">
@@ -240,7 +240,7 @@ placeholder="example@example.com">
 		
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<h1 class="display-4 text-center"><img src="img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="contact">MITÁKUYE OYÁS'IŊ</a></h1>
+				<h1 class="display-4 text-center"><img src="../img/smmeddrum.png" class="img-fluid" alt="smmeddrum"><a id="contact">MITÁKUYE OYÁS'IŊ</a></h1>
 				<p class="lead text-center">THANK YOU FOR VISITING OUR SITE</p>
 			</div>
 		</div>	
