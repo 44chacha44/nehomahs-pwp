@@ -43,17 +43,17 @@ $(document).ready(function() {
 			// error messages to display to the end user when rules above don't pass
 			messages: {
 						name: {
-								required: "who dis is?"
+								required: "Please enter your first name"
 				},
 						subject: {
-								required: "who dis is?"
+								required: "Please enter your last name"
 				},
 						email: {
-								email: "real email addy required",
-								required: "gimme your email addy"
+								email: "Valid e-mail required",
+								required: "Valid e-mail required"
 				},
 						message: {
-								required: "tell us your thoughts",
+								required: "Please enter a message",
 								maxlength: "2000 characters max",
 								minlength: "10 characters min"
 				}
@@ -80,4 +80,4 @@ $(document).ready(function() {
 				})
 			}
 		}); /* end validate function here*/
-})
+});/* end document.ready()*/
